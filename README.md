@@ -70,6 +70,9 @@ The internal linkage is a **slider-pin system** driven by servo motors. As the s
 
 ### Coefficients vs. Angle of Attack (JavaFoil)
 
+<table><tr>
+<td valign="top">
+
 | AOA (°) | CL | CD | L/D (Morphed) | L/D (Conventional) |
 |---------|----|----|--------------|-------------------|
 | -5 | -0.610 | 0.0120 | -40.66 | -34.96 |
@@ -84,13 +87,20 @@ The internal linkage is a **slider-pin system** driven by servo motors. As the s
 | +4 |  1.430 | 0.0170 |  84.11 |  78.11 |
 | +5 |  **1.660** | **0.0180** |  **92.22** |  **80.12** |
 
-Results from JavaFoil aerodynamic analysis. Full data available in [`results/aerodynamic_data.csv`](results/aerodynamic_data.csv).
+Full data: [`results/aerodynamic_data.csv`](results/aerodynamic_data.csv).
 
-<p align="center">
-  <img src="results/ld_vs_aoa.svg" width="720" alt="L/D vs AOA"/>
-</p>
+</td>
+<td valign="top">
+
+<img src="results/ld_vs_aoa.svg" width="440" alt="L/D vs AOA"/>
+
+</td>
+</tr></table>
 
 ### ANSYS Fluent Force Verification
+
+<table><tr>
+<td valign="top">
 
 | AOA (°) | Lift (N) | Drag (N) |
 |---------|----------|----------|
@@ -100,9 +110,13 @@ Results from JavaFoil aerodynamic analysis. Full data available in [`results/aer
 | +3 |  7.540 | 3.643 |
 | +5 | **10.030** | 6.042 |
 
-<p align="center">
-  <img src="results/ansys_forces.svg" width="720" alt="ANSYS Lift and Drag Forces"/>
-</p>
+</td>
+<td valign="top">
+
+<img src="results/ansys_forces.svg" width="440" alt="ANSYS Lift and Drag Forces"/>
+
+</td>
+</tr></table>
 
 ---
 
