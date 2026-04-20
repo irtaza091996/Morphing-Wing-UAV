@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" font-family="'Segoe UI', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" font-family="'Segoe UI', Arial, sans-serif">
 
   <!-- Background -->
-  <rect width="820" height="500" fill="#ffffff" rx="8"/>
+  <rect width="880" height="500" fill="#ffffff" rx="8"/>
 
   <!-- Plot area background -->
   <rect x="75" y="70" width="705" height="365" fill="#f8fafc" rx="4"/>
@@ -72,11 +72,11 @@
   <circle cx="780" cy="109" r="4" fill="#fff" stroke="#ef4444" stroke-width="2"/>
 
   <!-- +15.1% improvement badge -->
-  <line x1="735" y1="77" x2="735" y2="109" stroke="#16a34a" stroke-width="1.5"/>
-  <line x1="731" y1="77" x2="739" y2="77" stroke="#16a34a" stroke-width="1.5"/>
-  <line x1="731" y1="109" x2="739" y2="109" stroke="#16a34a" stroke-width="1.5"/>
-  <rect x="741" y="82" width="56" height="20" rx="4" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
-  <text x="769" y="96" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">+15.1%</text>
+  <line x1="790" y1="77" x2="790" y2="109" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="786" y1="77" x2="794" y2="77" stroke="#16a34a" stroke-width="1.5"/>
+  <line x1="786" y1="109" x2="794" y2="109" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="798" y="82" width="62" height="20" rx="4" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="829" y="96" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">+15.1%</text>
 
   <!-- Plot border -->
   <rect x="75" y="70" width="705" height="365" fill="none" stroke="#cbd5e1" stroke-width="1" rx="4"/>
