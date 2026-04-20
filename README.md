@@ -17,13 +17,13 @@ The morphing mechanism uses an internal **slider-pin linkage** that reshapes the
 ## Gallery
 
 <p align="center">
-  <img src="3D%20CAD%20Modeling/Views/isometric.PNG" width="720" alt="UAV Isometric View"/>
+  <img src="results/isometric.PNG" width="720" alt="UAV Isometric View"/>
 </p>
 
 <p align="center">
-  <img src="3D%20CAD%20Modeling/Views/front.PNG" width="240" alt="Front View"/>
-  <img src="3D%20CAD%20Modeling/Views/top.PNG" width="240" alt="Top View"/>
-  <img src="3D%20CAD%20Modeling/Views/side.PNG" width="240" alt="Side View"/>
+  <img src="results/front.PNG" width="240" alt="Front View"/>
+  <img src="results/top.PNG" width="240" alt="Top View"/>
+  <img src="results/side.PNG" width="240" alt="Side View"/>
 </p>
 
 <p align="center">
@@ -110,14 +110,17 @@ Results from JavaFoil aerodynamic analysis. Full data available in [`results/aer
 ## Repository Structure
 
 ```
-├── 3D CAD Modeling/
-│   └── Views/              # Rendered PNG views (isometric, side, top, front, back)
-├── FYP Presentation/
-│   └── FYP Presentation.pdf
 ├── results/
+│   ├── isometric.PNG
+│   ├── front.PNG
+│   ├── top.PNG
+│   ├── side.PNG
+│   ├── back.PNG
 │   ├── aerodynamic_data.csv
 │   ├── ld_vs_aoa.svg
 │   └── ansys_forces.svg
+├── FYP Presentation/
+│   └── FYP Presentation.pdf
 ├── Prototype_pic.png
 └── README.md
 ```
