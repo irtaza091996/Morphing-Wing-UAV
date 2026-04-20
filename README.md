@@ -1,8 +1,7 @@
 # Morphing Wing UAV - Design, Analysis & Testing
 
-**BSc Final Year Design Project** | Institute of Space Technology  
+**B.Sc. Final Year Design Project** | Institute of Space Technology  
 **Author:** Muhammad Irtaza Khan  
-**Supervisors:** Dr. Owaisur Rahman Shah & Dr. Muhammad Zubair Khan
 
 ---
 
@@ -14,7 +13,7 @@ The morphing mechanism uses an internal **slider-pin linkage** that reshapes the
 
 ---
 
-## Gallery
+## CAD Model
 
 <p align="center">
   <img src="results/isometric.PNG" width="720" alt="UAV Isometric View"/>
@@ -29,7 +28,7 @@ The morphing mechanism uses an internal **slider-pin linkage** that reshapes the
 <p align="center">
   <img src="results/Prototype_pic.png" width="560" alt="Physical prototype of the morphing wing UAV"/>
   <br/>
-  <em>Physical prototype</em>
+  <em>Physical Prototype</em>
 </p>
 
 ---
@@ -50,9 +49,9 @@ The 10% takeoff distance reduction was **experimentally validated** on a physica
 
 ### Airfoil & Design Parameters
 
-- **Airfoil:** NACA 4412 (selected for mid-speed UAVs at 15-20 m/s with 12% max thickness)
-- **Cruise velocity:** 14.35 m/s (47.4 ft/s)
-- **Reynolds number:** Re = 2.53 x 10^5
+- **Airfoil:** NACA 4412 (selected for mid-speed UAVs at 15-20 m/s with 12% max thickness).
+- **Cruise velocity:** 14.35 m/s (47.4 ft/s).
+- **Reynolds number:** Re = 2.53 x 10^5.
 - **Chord:** 0.261 m · **Span:** 1.415 m · **Wing area:** 0.369 m²
 
 ### Morphing Mechanism
@@ -61,9 +60,9 @@ The internal linkage is a **slider-pin system** driven by servo motors. As the s
 
 ### Analysis Pipeline
 
-1. **JavaFoil** - 2D panel method analysis for dimensionless CL, CD, and L/D across AOA sweep (-5° to +5°)
-2. **ANSYS Fluent** - 3D CFD for absolute lift and drag force verification; RANS solver, incompressible flow
-3. **Physical prototype** - takeoff distance measured with and without morphing engaged
+1. **JavaFoil** - 2D panel method analysis for dimensionless CL, CD, and L/D across AOA sweep (-5° to +5°).
+2. **ANSYS Fluent** - 3D CFD for absolute lift and drag force verification; RANS solver, incompressible flow.
+3. **Physical prototype** - Takeoff distance measured with and without morphing engaged.
 
 ---
 
@@ -140,5 +139,5 @@ Results from JavaFoil aerodynamic analysis. Full data available in [`results/aer
 
 ## Acknowledgments
 
-Supervised by **Dr. Owaisur Rahman Shah** and **Dr. Muhammad Zubair Khan** at the Institute of Space Technology, Islamabad.  
-Airfoil selection informed by the work of Vladimir Brusov & Vladimir Petruchik on mid-speed UAV profiles.
+1. Supervised by **Dr. Owaisur Rahman Shah** and **Dr. Muhammad Zubair Khan** at the Institute of Space Technology, Islamabad.  
+2. Airfoil selection informed by the work of Vladimir Brusov & Vladimir Petruchik on mid-speed UAV profiles.
