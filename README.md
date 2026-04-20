@@ -27,7 +27,7 @@ The morphing mechanism uses an internal **slider-pin linkage** that reshapes the
 </p>
 
 <p align="center">
-  <img src="Prototype_pic.png" width="560" alt="Physical prototype of the morphing wing UAV"/>
+  <img src="results/Prototype_pic.png" width="560" alt="Physical prototype of the morphing wing UAV"/>
   <br/>
   <em>Physical prototype</em>
 </p>
@@ -116,12 +116,12 @@ Results from JavaFoil aerodynamic analysis. Full data available in [`results/aer
 │   ├── top.PNG
 │   ├── side.PNG
 │   ├── back.PNG
+│   ├── Prototype_pic.png
 │   ├── aerodynamic_data.csv
 │   ├── ld_vs_aoa.svg
 │   └── ansys_forces.svg
 ├── FYP Presentation/
 │   └── FYP Presentation.pdf
-├── Prototype_pic.png
 └── README.md
 ```
 
