@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" font-family="'Segoe UI', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="820" height="500" fill="#ffffff" rx="8"/>
+
+  <!-- Plot area background -->
+  <rect x="75" y="70" width="705" height="365" fill="#f8fafc" rx="4"/>
+
+  <!-- Horizontal grid lines -->
+  <line x1="75" y1="422" x2="780" y2="422" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="75" y1="370" x2="780" y2="370" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <line x1="75" y1="318" x2="780" y2="318" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="75" y1="266" x2="780" y2="266" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="75" y1="213" x2="780" y2="213" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="75" y1="161" x2="780" y2="161" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="75" y1="109" x2="780" y2="109" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Vertical grid lines -->
+  <line x1="75"  y1="70" x2="75"  y2="435" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="216" y1="70" x2="216" y2="435" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="428" y1="70" x2="428" y2="435" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="639" y1="70" x2="639" y2="435" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="780" y1="70" x2="780" y2="435" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Drag area fill -->
+  <polygon
+    points="75,321 216,341 428,334 639,275 780,212 780,435 639,435 428,435 216,435 75,435"
+    fill="#ef4444" fill-opacity="0.07"/>
+
+  <!-- Lift area fill -->
+  <polygon
+    points="216,370 216,370 428,267 639,173 780,108 780,370 639,370 428,370 216,370"
+    fill="#2563eb" fill-opacity="0.08"/>
+
+  <!-- Plot border -->
+  <rect x="75" y="70" width="705" height="365" fill="none" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+
+  <!-- Drag line -->
+  <polyline
+    points="75,321 216,341 428,334 639,275 780,212"
+    fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="8,5" stroke-linejoin="round"/>
+
+  <!-- Lift line -->
+  <polyline
+    points="75,419 216,370 428,267 639,173 780,108"
+    fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Data points - Lift -->
+  <circle cx="75"  cy="419" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="216" cy="370" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="428" cy="267" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="639" cy="173" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="780" cy="108" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Data points - Drag -->
+  <circle cx="75"  cy="321" r="4.5" fill="#fff" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="216" cy="341" r="4.5" fill="#fff" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="428" cy="334" r="4.5" fill="#fff" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="639" cy="275" r="4.5" fill="#fff" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="780" cy="212" r="4.5" fill="#fff" stroke="#ef4444" stroke-width="2"/>
+
+  <!-- Value labels - Lift -->
+  <text x="75"  y="410" text-anchor="middle" font-size="10.5" fill="#1d4ed8" font-weight="600">-1.88 N</text>
+  <text x="216" y="361" text-anchor="middle" font-size="10.5" fill="#1d4ed8" font-weight="600">-0.02 N</text>
+  <text x="428" y="258" text-anchor="middle" font-size="10.5" fill="#1d4ed8" font-weight="600">3.93 N</text>
+  <text x="639" y="164" text-anchor="middle" font-size="10.5" fill="#1d4ed8" font-weight="600">7.54 N</text>
+  <text x="780" y="99"  text-anchor="middle" font-size="10.5" fill="#1d4ed8" font-weight="600">10.03 N</text>
+
+  <!-- Value labels - Drag -->
+  <text x="75"  y="336" text-anchor="middle" font-size="10.5" fill="#dc2626">1.85 N</text>
+  <text x="216" y="356" text-anchor="middle" font-size="10.5" fill="#dc2626">1.10 N</text>
+  <text x="428" y="349" text-anchor="middle" font-size="10.5" fill="#dc2626">1.38 N</text>
+  <text x="639" y="290" text-anchor="middle" font-size="10.5" fill="#dc2626">3.64 N</text>
+  <text x="780" y="227" text-anchor="middle" font-size="10.5" fill="#dc2626">6.04 N</text>
+
+  <!-- Title -->
+  <text x="428" y="32" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">ANSYS Fluent CFD - Lift and Drag Forces</text>
+  <text x="428" y="52" text-anchor="middle" font-size="12" fill="#64748b">3D CFD verification  ·  RANS solver  ·  Incompressible flow</text>
+
+  <!-- X axis -->
+  <line x1="75" y1="435" x2="780" y2="435" stroke="#475569" stroke-width="1.2"/>
+  <text x="75"  y="453" text-anchor="middle" font-size="11" fill="#64748b">-5°</text>
+  <text x="216" y="453" text-anchor="middle" font-size="11" fill="#64748b">-3°</text>
+  <text x="428" y="453" text-anchor="middle" font-size="11" fill="#64748b">0°</text>
+  <text x="639" y="453" text-anchor="middle" font-size="11" fill="#64748b">+3°</text>
+  <text x="780" y="453" text-anchor="middle" font-size="11" fill="#64748b">+5°</text>
+  <text x="428" y="480" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">Angle of Attack</text>
+
+  <!-- Y axis -->
+  <line x1="75" y1="70" x2="75" y2="435" stroke="#475569" stroke-width="1.2"/>
+  <text x="63" y="426" text-anchor="end" font-size="11" fill="#64748b">-2</text>
+  <text x="63" y="374" text-anchor="end" font-size="11" fill="#64748b">0</text>
+  <text x="63" y="322" text-anchor="end" font-size="11" fill="#64748b">2</text>
+  <text x="63" y="270" text-anchor="end" font-size="11" fill="#64748b">4</text>
+  <text x="63" y="217" text-anchor="end" font-size="11" fill="#64748b">6</text>
+  <text x="63" y="165" text-anchor="end" font-size="11" fill="#64748b">8</text>
+  <text x="63" y="113" text-anchor="end" font-size="11" fill="#64748b">10</text>
+  <text transform="translate(18,252) rotate(-90)" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">Force (N)</text>
+
+  <!-- Legend -->
+  <rect x="90" y="84" width="175" height="52" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="102" y1="105" x2="130" y2="105" stroke="#2563eb" stroke-width="2.5"/>
+  <circle cx="116" cy="105" r="4.5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+  <text x="136" y="109" font-size="12" fill="#0f172a">Lift Force</text>
+  <line x1="102" y1="125" x2="130" y2="125" stroke="#ef4444" stroke-width="2" stroke-dasharray="8,5"/>
+  <circle cx="116" cy="125" r="4" fill="#fff" stroke="#ef4444" stroke-width="2"/>
+  <text x="136" y="129" font-size="12" fill="#0f172a">Drag Force</text>
+
+</svg>
